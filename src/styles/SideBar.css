@@ -1,0 +1,33 @@
+.sidebar {
+  width: 20%;
+  background-color: #3172b7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 10px 0;
+}
+.sidebar_title {
+  font-size: 24px;
+  color: #e7e5e5;
+}
+.sidebar_block {
+  list-style: none;
+  margin-top: 50px;
+}
+.sidebar_block-list {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+.sidebar_block-svg {
+  width: 20px;
+  margin-right: 10px;
+}
+@media (max-width: 426px) {
+  .sidebar {
+    display: none;
+  }
+}

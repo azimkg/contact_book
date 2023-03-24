@@ -1,0 +1,109 @@
+.all_contacts {
+  width: 40%;
+  padding: 50px 10px 0;
+}
+.all_contacts-title {
+  font-size: 20px;
+  opacity: 0.8;
+}
+.block_search {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 42px -4px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 42px -4px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 42px -4px rgba(34, 60, 80, 0.2);
+  padding: 0 10px;
+  margin: 20px 0;
+}
+.all_contacts-search {
+  width: 15px;
+}
+.all_contacts-inp {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 10px;
+}
+.all_contacts-block {
+  display: flex;
+}
+.all_contacts-all {
+  margin-left: 10px;
+  padding: 5px 10px 0;
+  cursor: pointer;
+}
+.active {
+  border-top: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  padding: 4px 9px 0;
+  margin-left: 10px;
+  background-color: #eaeaea;
+  cursor: pointer;
+}
+.all_contacts-line {
+  height: 1px;
+  background-color: #eaeaea;
+}
+
+/* contacts */
+.contacts {
+  margin: 10px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+.contacts_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+  padding: 5px;
+}
+.contacts_card-block {
+  display: flex;
+  align-items: center;
+}
+.contacts_card-img {
+  width: 30px;
+}
+.contacts_card-mobile {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eaeaea;
+  padding: 5px;
+  text-decoration: none;
+  color: #333333;
+}
+@media (max-width: 426px) {
+  .all_contacts {
+    width: 100%;
+  }
+  .contacts_card-name {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .contacts_card-phone {
+    font-size: 14px;
+  }
+  .contacts_card {
+    display: none;
+  }
+  .contacts_card-mobile {
+    display: flex;
+  }
+}
+@media (max-width: 400px) {
+  .all_contacts {
+    width: 100%;
+  }
+  .contacts_card-name {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .contacts_card-phone {
+    display: none;
+  }
+}
